@@ -1,0 +1,15 @@
+Channels:
+  Global:
+    default: true
+    console_log: true
+    permission: OblivionChat.channel.global
+    range: 20
+    max_players: -1
+    format: "&7&l[&6&lGlobal&7&l] &a%oblivion_player_displayname% &f%oblivion_player_message%"
+  Test:
+    default: false
+    console_log: true
+    permission: OblivionChat.channel.global
+    range: 100
+    max_players: -1
+    format: "&7&l[&a&lTest&7&l] &a%oblivion_player_displayname% &f%oblivion_player_message%"

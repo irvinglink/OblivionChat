@@ -1,0 +1,33 @@
+Plugin_Prefix: "&3Oblivion&fChat &7"
+No_Permission: "%oblivion_prefix% &cYou do not have permission to do this&7."
+Command_Does_Not_Exists: "%oblivion_prefix% &cThis command does not exist&7."
+Syntax_Error: "&cSyntax Error&8: &7%oblivion_command_syntax%"
+Player_No_Online: "&cThe player &e%oblivion_target_name% &cis not &aonline&7."
+
+Channel:
+  Already_In_Channel_Player: "%oblivion_prefix% &cYou are already in this channel&7."
+  Already_In_Channel_Target: "%oblivion_prefix% &cThe target is already in that channel&7."
+  Join_Player: "%oblivion_prefix% &7You joined %oblivion_target_name% to the channel &b%oblivion_channel_name%&7."
+  Join_Target: "%oblivion_prefix% &7You joined to the channel &b%oblivion_channel_name%&7."
+  Switch: "%oblivion_prefix% &7You switch from &b%oblivion_channel_name% &7to &b%oblivion_channel_name_target%&7."
+
+Help:
+  Join_Description: "Join a channel"
+  Spy_Description: "Spy channel messages"
+  Switch_Description: "Switch from a channel to another"
+  List_Description: "See the channels available"
+
+Channel_List:
+  No_Registered_Channels: "&cNo registered channels"
+  Title: "CHANNEL LIST"
+  Available: "&3Available: &f"
+  Current_Channel: "&7Current Channel: &f"
+  HoverEvent_Channel_Message: "&7Channel: &b"
+  HoverEvent_Members_Message: "&7Members: &f"
+  HoverEvent_Access_Message: "&7Access: "
+  HoverEvent_Click_Message: "&f[Click to join]"
+
+Exceptions:
+  Channel_Reach_Max_Members: "%oblivion_prefix% &cThis channel has been reached the limit of members&7."
+  Channel_No_Exists: "%oblivion_prefix% &cThat channel does not exists&7."
+  Channel_No_Access: "%oblivion_prefix% &cYou do not have permission to access to this channel&7."
